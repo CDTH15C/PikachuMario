@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: 2cae0b60b4fc4094485b5348b0890900
+timeCreated: 1505648959
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: left_ear
+    21300002: tail
+    21300004: dead_eye
+    21300006: right_ear
+    21300008: head
+    21300010: right_eye
+    21300012: left_eye
+    21300014: tounge
+    21300016: mouth
+    21300018: left_weel
+    21300020: right_weel
+    21300022: body
+    21300024: right_arm
+    21300026: left_arm
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: left_ear
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 711
+        width: 184
+        height: 196
+      alignment: 9
+      pivot: {x: 0.8388708, y: 0.16369754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tail
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 886
+        width: 269
+        height: 169
+      alignment: 9
+      pivot: {x: 0.95696294, y: 0.046720427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dead_eye
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 854
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_ear
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 685
+        width: 184
+        height: 197
+      alignment: 9
+      pivot: {x: 0.8582349, y: 0.14731811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: head
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 517
+        width: 275
+        height: 276
+      alignment: 9
+      pivot: {x: 0.44169655, y: 0.13340096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_eye
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 759
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_eye
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 762
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tounge
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 610
+        width: 45
+        height: 41
+      alignment: 9
+      pivot: {x: 0.7976644, y: 0.795437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mouth
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 591
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_weel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 191
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_weel
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 210
+        width: 191
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 193
+        width: 232
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5614308, y: 0.8301903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_arm
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 10
+        width: 69
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4483616, y: 0.83873403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_arm
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 65
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47259238, y: 0.8239076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
