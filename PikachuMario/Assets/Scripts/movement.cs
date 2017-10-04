@@ -39,11 +39,9 @@ public class movement : MonoBehaviour {
 	void Jump()
 	{
 		if (grounded) {
-			
-			float dir_y = Input.GetAxisRaw ("Vertical");
-			if (dir_y != 0f) {
+			if (Input.GetKey(KeyCode.UpArrow)) {
 				grounded = false;
-				player.velocity = new Vector2 (player.velocity.x, jumpSpeed * dir_y);
+				player.velocity = new Vector2 (player.velocity.x, jumpSpeed);
 			}
 		}
 	}
