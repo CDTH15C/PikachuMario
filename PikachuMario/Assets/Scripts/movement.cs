@@ -9,6 +9,9 @@ public class movement : MonoBehaviour {
 	public Animator anim;
 	private bool grounded;
 
+	//
+	public Transform groundedRayEnd;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -16,6 +19,10 @@ public class movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		Debug.DrawLine (this.transform.position, groundedRayEnd.position, Color.green);
+		grounded = Physics2D.Linecast (this.transform.position, groundedRayEnd.position, 1 << LayerMask.NameToLayer ("ground"));
+
 		Move ();
 		Jump ();
 
@@ -44,10 +51,5 @@ public class movement : MonoBehaviour {
 				player.velocity = new Vector2 (player.velocity.x, jumpSpeed);
 			}
 		}
-	}
-
-	void OnCollisionEnter2D(Collision2D other)
-	{
-		grounded = true;
 	}
 }
