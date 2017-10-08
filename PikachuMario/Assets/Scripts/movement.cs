@@ -46,7 +46,7 @@ public class movement : MonoBehaviour {
 	void Jump()
 	{
 		if (grounded) {
-			if (Input.GetKey(KeyCode.UpArrow)) {
+			if (Input.GetKeyDown(KeyCode.UpArrow)) {
 				grounded = false;
 				player.velocity = new Vector2 (player.velocity.x, jumpSpeed);
 			}

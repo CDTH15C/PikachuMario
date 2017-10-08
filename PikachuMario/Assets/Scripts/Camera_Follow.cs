@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Camera_Follow : MonoBehaviour {
 
-	public float smooth;
+	public float smooth, offset;
 	public GameObject player;
 	Vector3 velocity;
 	// Update is called once per frame
 	void LateUpdate () {
-		Vector3 temp = Vector3.SmoothDamp (this.transform.position, player.transform.position,ref velocity, smooth, 2f, 0.5f);
+		Vector3 temp = player.transform.position;
 		temp.z = -10f;
+		temp.y += offset;
 		this.transform.position = temp;
 	}
 }

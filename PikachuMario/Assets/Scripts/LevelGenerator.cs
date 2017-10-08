@@ -10,10 +10,6 @@ public class LevelGenerator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		foreach (ColorPrefabs color in levelMaps) {
-			Debug.Log (color.color);
-		}
-		Debug.Log ("");
 		GenerateLevel ();
 
 	}

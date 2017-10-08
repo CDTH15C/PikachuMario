@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Camera_Follow.cs" />
      <Compile Include="Assets\Scripts\ColorPrefabs.cs" />
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
+     <Compile Include="Assets\Scripts\cloud_movement.cs" />
      <Compile Include="Assets\Scripts\movement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
